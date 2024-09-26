@@ -1,4 +1,4 @@
-import { rechargeMana } from "../manaCharger.js";
+import { rechargeMana } from "../Jeu/manaCharger.js";
 
 export class Character {
     constructor(name, hp, dmg, mana) {
