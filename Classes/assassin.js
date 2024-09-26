@@ -2,7 +2,7 @@ import { Character } from "./character.js";
 
 export class Assassin extends Character {
   constructor(name) {
-    super(name, 6, 6, 20);
+    super(name, 7, 6, 30);
     this.protectedNextTurn = false;
   }
 

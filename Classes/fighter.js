@@ -2,7 +2,7 @@ import { Character } from "./character.js";
 
 export class Fighter extends Character {
   constructor(name) {
-    super(name, 12, 4, 40);
+    super(name, 15, 4, 30);
     this.damageReductionNextTurn = 0;
   }
 

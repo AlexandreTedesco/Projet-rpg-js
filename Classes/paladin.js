@@ -2,7 +2,7 @@ import { Character } from "./character.js";
 
 export class Paladin extends Character {
   constructor(name) {
-    super(name, 16, 3, 160);
+    super(name, 18, 2, 150);
   }
 
   specialAttack(target) {
@@ -13,9 +13,9 @@ export class Paladin extends Character {
 
     if (this.mana >= 40) {
       this.mana -= 40;
-      console.log(`${this.name} utilise Healing Lighting sur ${target.name}, infligeant 4 dégâts et se soignant de 5.`);
+      console.log(`${this.name} utilise Healing Lighting sur ${target.name}, infligeant 3 dégâts et se soignant de 3.`);
       target.takeDamage(4);
-      this.hp += 5;
+      this.hp += 3;
     } else {
       console.log(`${this.name} n'a pas assez de mana pour Healing Lighting.`);
     }
